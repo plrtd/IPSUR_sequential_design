@@ -13,7 +13,7 @@ This repository provides an example of the IP-SUR sequential design strategy for
 
 A utilitaries directory and a scripts directory are provided. The following files are found:
 - `Model.py`: contains the classes used for Gaussian Process (GP) surrogate model. This is based on sklearn base code.
-- `Kernel.py`: contains the various classes for kernels used in GP surrogates. This file contains Matérn, RBF and White kernels as well as the Linear Coregionalization Model from Bonilla (CITE) which is used to build multi-output GP. 
+- `Kernel.py`: contains the various classes for kernels used in GP surrogates. This file contains Matérn, RBF and White kernels as well as the Linear Coregionalization Model [(Bonilla et al.)]([https://arxiv.org/abs/2402.16520](https://papers.nips.cc/paper_files/paper/2007/hash/66368270ffd51418ec58bd793f2d9b1b-Abstract.html)) which is used to build multi-output GP. 
 - `Dataset.py`: contains the DataSet Class used for GP surrogate models. It includes standardization of the data, and power transforms (Yeo-Jonhson and Box-Cox).
 - `Utils_banana.py`: contains the various functions and classes used to implement the sequential design strategies described in the paper (IP-SUR, CSQ, Naive and Bayes risk minimization) for the banana test case.
 - `Utils_bimodal.py`: contains the various functions and classes used to implement the sequential design strategies described in the paper (IP-SUR, CSQ, Naive and Bayes risk minimization) for the bimodal test case.
