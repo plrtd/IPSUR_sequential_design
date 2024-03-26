@@ -9,7 +9,7 @@ Code executed with the following packages:
 - Joblib version 1.1.0
 
 ## General description
-This repository provides an example of the IP-SUR sequential design strategy for Bayesian inverse problems introduced in this paper.
+This repository provides an example of the IP-SUR sequential design strategy for Bayesian inverse problems introduced in [this paper](https://arxiv.org/abs/2402.16520).
 
 A utilitaries directory and a scripts directory are provided. The following files are found:
 - `Model.py`: contains the classes used for Gaussian Process (GP) surrogate model. This is based on sklearn base code.
