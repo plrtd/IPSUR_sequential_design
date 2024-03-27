@@ -482,7 +482,7 @@ def acquisition(x, gp, sampler, log_like_bound):
         return log_det, log_like
     return -np.inf, log_like
 
-def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=50, dist_bound_map=3.):
+def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=200, dist_bound_map=3.):
     """
 
     Parameters
@@ -518,7 +518,7 @@ def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=50, dist_bo
     res = opt.x * (bounds_mcmc[1] - bounds_mcmc[0]) + bounds_mcmc[0]
     return res
 
-def find_new_x_sur(chain, gp, observations, cov_obs_tot, bounds_mcmc, iterations=5):
+def find_new_x_sur(chain, gp, observations, cov_obs_tot, bounds_mcmc, iterations=200):
     """
 
     Parameters
@@ -647,7 +647,7 @@ def update_sinsbeck(gp, obs, cov_obs, bounds_mcmc, n=1000, samples=None):
         samples = np.random.uniform(low=bounds_mcmc[0], high=bounds_mcmc[1], size=(n, 2))
     func = lambda x:-sinsbeck_acq(x, gp, samples, obs, cov_obs, bounds_mcmc)
     bounds_opt = scipy.optimize.Bounds(lb=np.zeros(2), ub=np.ones(2))
-    opt_x = scipy.optimize.dual_annealing(func, bounds=bounds_opt, maxiter=50, initial_temp=10000, restart_temp_ratio=1e-3).x
+    opt_x = scipy.optimize.dual_annealing(func, bounds=bounds_opt, maxiter=200, initial_temp=10000, restart_temp_ratio=1e-3).x
     opt_x = bounds_mcmc[0] + opt_x * (bounds_mcmc[1] - bounds_mcmc[0])
     return samples, opt_x
 
