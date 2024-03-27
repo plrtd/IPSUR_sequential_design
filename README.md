@@ -1,4 +1,4 @@
-# IPSUR_sequential_design
+# IPSUR sequential design for Bayesian inverse problems with Gaussian process surrogate models
 
 Author : Paul Lartaud (1s2lartaudpaul@gmail.com)
 Code executed with the following packages:
