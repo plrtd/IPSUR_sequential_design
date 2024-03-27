@@ -479,7 +479,7 @@ def acquisition(x, gp, sampler, log_like_bound):
         return log_det, log_like
     return -np.inf, log_like
 
-def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=5, dist_bound_map=3.):
+def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=200, dist_bound_map=3.):
     """
 
     Parameters
@@ -515,7 +515,7 @@ def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=5, dist_bou
     res = opt.x * (bounds_mcmc[1] - bounds_mcmc[0]) + bounds_mcmc[0]
     return res
 
-def find_new_x_sur(chain, gp, observations, cov_obs_tot, bounds_mcmc, iterations=5):
+def find_new_x_sur(chain, gp, observations, cov_obs_tot, bounds_mcmc, iterations=200):
     """
 
     Parameters
