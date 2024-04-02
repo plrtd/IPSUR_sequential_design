@@ -4,9 +4,9 @@ import scipy
 from Utils_banana import *
 
 ## Initialization 
-n_mcmc = int(1e3)  # nb of MCMC samples
+n_mcmc = int(2e5)  # nb of MCMC samples
 n_tune = 1000  # nb of tuning samples
-iterations = 3 # nb of sequential design iterations
+iterations = 5 # nb of sequential design iterations
 thinning = 10 # MCMC thinning
 burnin = 500 # MCMC burnin
 n_infinite = 1000 # nb of training points for 'infinite' GP surrogate

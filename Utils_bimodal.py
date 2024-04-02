@@ -479,7 +479,7 @@ def acquisition(x, gp, sampler, log_like_bound):
         return log_det, log_like
     return -np.inf, log_like
 
-def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=200, dist_bound_map=3.):
+def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=50, dist_bound_map=2.):
     """
 
     Parameters
@@ -515,7 +515,7 @@ def find_new_x_csq(sampler, gp, cov_obs_tot, bounds_mcmc, iterations=200, dist_b
     res = opt.x * (bounds_mcmc[1] - bounds_mcmc[0]) + bounds_mcmc[0]
     return res
 
-def find_new_x_sur(chain, gp, observations, cov_obs_tot, bounds_mcmc, iterations=200):
+def find_new_x_sur(chain, gp, observations, cov_obs_tot, bounds_mcmc, iterations=5):
     """
 
     Parameters
@@ -742,7 +742,7 @@ def sequential_design_csq(sampler_csq, gp_csq, observations, cov_obs_tot, iterat
     list_added_csq  = []
     for i in range(iterations):
         chain_csq = sampler_csq.chain[burnin::thinning]
-        new_x = find_new_x_csq(sampler_csq, gp_csq, cov_obs_tot, bounds_mcmc=bounds_mcmc,iterations=20)
+        new_x = find_new_x_csq(sampler_csq, gp_csq, cov_obs_tot, bounds_mcmc=bounds_mcmc,iterations=100)
         new_x = np.atleast_2d(new_x)
         new_y = f_bimodal(new_x) + np.random.multivariate_normal(np.zeros(2), noise_cov_train, size=1)
         gp_csq.add_data(new_x, new_y)
