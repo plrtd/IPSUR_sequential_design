@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/LICENSE</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/issues</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/pulls</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/actions</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/security</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/DataSet.py</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/IPSUR_banana.py</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/IPSUR_bimodal.py</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/Kernel.py</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/Model.py</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/README.md</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/Utils_banana.py</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/blob/main/Utils_bimodal.py</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/releases</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels?sort=name-asc</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels?sort=name-desc</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels?sort=count-desc</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels?sort=count-asc</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/bug</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/documentation</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/duplicate</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/enhancement</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/good%20first%20issue</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/help%20wanted</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/invalid</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/question</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/labels/wontfix</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/plrtd/IPSUR_sequential_design/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2024-04-08T16:23:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
